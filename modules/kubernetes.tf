@@ -1,7 +1,7 @@
 
 
 provider "kubernetes" {
-    config_path="/Users/manasi/.kube/config"
+    config_path="~/.kube/config"
 
     config_context_cluster="gke_${google_container_cluster.my-cluster.project}_${google_container_cluster.my-cluster.location}_${google_container_cluster.my-cluster.name}"
 }
