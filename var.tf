@@ -1,7 +1,7 @@
 variable "gcp_credentials_path"{
 
 
-    default="/Users/Manasi/.config/gcloud/application_default_credentials.json"
+    default="/Users/Sid/.config/gcloud/application_default_credentials.json"
 
 }
 
